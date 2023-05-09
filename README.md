@@ -1,1 +1,1 @@
-# differential-prompting
+# Differential Prompting
