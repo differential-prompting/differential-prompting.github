@@ -3,54 +3,58 @@ layout: page
 # The Home page layout
 ---
 <div class="post-content">
-      A Machine Learning (ML) pipeline configure the workflow of a
-  learning task using the APIs provided by ML libraries. However,
-  a pipeline’s performance can vary significantly across different
-  configurations of ML library versions. Misconfigured pipelines can
-  result in inferior performance, such as poor execution time and memory
-  usage, numeric errors and even crashes. A pipeline is subject
-  to misconfiguration if it exhibits significantly inconsistent performance
-  upon changes in the versions of its configured libraries or
-  the combination of these libraries. We refer to such performance
-  inconsistency as an pipeline configuration (PLC) issue.
+        Automated detection of software failures
+  is an important but challenging software engineering task. It
+  involves finding in a vast search space the failure-inducing tests
+  that contain an input triggering the software fault and an oracle
+  asserting the incorrect execution. We are motivated to study how
+  far this outstanding challenge can be solved by recent advances
+  in large language models (LLMs) such as ChatGPT. However,
+  our study reveals that ChatGPT has a relatively low success rate
+  (28.8%) in finding correct failure-inducing test cases for buggy
+  programs. A possible conjecture is that finding failure-inducing
+  test cases requires analyzing the subtle differences (nuances)
+  between the tokens for a program’s correct version and those
+  for its buggy version. When these two versions have similar sets
+  of tokens and attentions, ChatGPT is weak in distinguishing their
+  differences.
   <br>
   <br>
-  There is no prior systematic study on the pervasiveness, impact
-  and root causes of PLC issues. A systematic understanding
-  of these issues helps configure effective ML pipelines and identify
-  misconfigured ones. In this paper, we present the first systematic
-  study of PLC issues. We propose <a href="https://piecer-plc.github.io/Piecer"><strong>Piecer</strong></a>, an infrastructure that automatically
-  generates a set of pipeline variants by varying different
-  version combinations of ML libraries and compares their performance
-  inconsistencies. We apply Piecer to the 3,380 pipelines that
-  can be deployed out of the 11,363 ML pipelines collected from multiple
-  ML competitions at Kaggle platform. The study results show
-  that 1,092 (32.3%) of the 3,380 pipelines manifest significant performance
-  inconsistencies on at least one variant. We find that 399,
-  243 and 440 pipelines can achieve better competition scores, execution
-  time and memory usage, respectively, by adopting a different
-  configuration. Based on our empirical findings, we constructed a
-  <a href="https://piecer-plc.github.io/Defective-Repository"><strong>repository</strong></a> containing 164 defective APIs and 106 API combinations
-  from 418 library versions, which helped us capture PLC issues in
-  <a href="https://piecer-plc.github.io/Empirical-Findings"><strong>309 real-world ML pipelines</strong></a>.
+  We find that ChatGPT can successfully generate failure-inducing test cases when it is guided to focus on the nuances. Our
+  solution is inspired by an interesting observation that ChatGPT
+  could infer the intended functionality of buggy code if it is similar
+  to the correct version. Driven by the inspiration, we develop a
+  novel technique, called <a href="https://differential-prompting.github.io/Differential-Prompting"><strong>Differential Prompting</strong></a>, to effectively find
+  failure-inducing test cases with the help of the compilable code
+  synthesized by the inferred intention. Prompts are constructed
+  based on the nuances between the given version and the synthesized code. We evaluate Differential Prompting on Quixbugs
+  (a popular benchmark of buggy programs) and recent programs
+  published at Codeforces (a popular programming contest portal,
+  which is also an official benchmark of ChatGPT). We compare
+  Differential Prompting with two baselines constructed using
+  conventional ChatGPT prompting and PYNGUIN (the state-of-the-art unit test generation tool for Python programs). Our evaluation results show that for programs of Quixbugs, Differential
+  Prompting can achieve a success rate of 75.0% in finding failure-inducing test cases, outperforming the best baseline by 2.6X. For
+  programs of Codeforces, Differential Prompting’s success rate
+  is 60.0%, outperforming the best baseline by 6.0X.
 
 </div>
   <hr>
   <div class="post-content">
       <div class="logo">
-          <!-- <a href="https://piecer-plc.github.io/Piecer.html"> -->
+          <!-- <a href="https://differential-prompting.io/Differential-Prompting.html"> -->
            <img src="/assets/images/tool.svg" alt="avatar" height="50" width="50">
           <!-- </a> -->
           <span>
-              <a href="https://piecer-plc.github.io/Piecer"><strong> A tool to automate analyzing ML library version combinations impacts.</strong></a><br>
+              <a href="https://differential-prompting.io/Differential-Prompting"><strong> 
+A technique to effectively find failure-inducing test cases with the help of the compilable code synthesized by the inferred intention.</strong></a><br>
           </span>
       </div>
       <div class="logo">
-          <!-- <a href="https://piecer-plc.github.io/DAR.html"> -->
+          <!-- <a href="https://differential-prompting.io/DAR.html"> -->
            <img src="/assets/images/repository.svg" alt="avatar" height="50" width="50">
           <!-- </a> -->
           <span>
-              <a href="https://piecer-plc.github.io/Defective-Repository">
+              <a href="https://differential-prompting.io/Defective-Repository">
               <strong>Defective API repository for detecting PLC issues.<br></strong> 
           </a>
           </span>
@@ -60,17 +64,17 @@ layout: page
            <img src="/assets/images/libraries.svg" alt="avatar" height="50" width="50">
           
           <span>
-              <a href="https://piecer-plc.github.io/Empirical-Findings">
+              <a href="https://differential-prompting.io/Empirical-Findings">
                   <strong>Empirical findings in ML libraries.<br></strong> 
               </a>
           </span>
       </div>
       <div class="logo">
-          <!-- <a href="https://piecer-plc.github.io/EPP.html"> -->
+          <!-- <a href="https://differential-prompting.io/EPP.html"> -->
            <img src="/assets/images/pipeline.svg" alt="avatar" height="50" width="50">
           <!-- </a> -->
           <span>
-              <a href="https://piecer-plc.github.io/Empirical-Findings">
+              <a href="https://differential-prompting.io/Empirical-Findings">
                   <strong>Empirical findings in ML Pipelines.<br></strong> 
               </a>
           </span>
@@ -80,7 +84,7 @@ layout: page
            <img src="/assets/images/download.svg" alt="avatar" height="50" width="50">
           
           <span>
-              <a href="https://piecer-plc.github.io/Download-Datasets">
+              <a href="https://differential-prompting.io/Download-Datasets">
                   <strong>Download the pipelines(labelled with workflow stages).<br></strong>
               </a>
           </span>
