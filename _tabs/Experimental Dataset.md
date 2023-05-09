@@ -5,34 +5,35 @@ order: 4
 ---
 
 
-## API Lable
-> A dataset 7,983 library APIs (labelled with workflow stages);
+## Failure-Inducing Test Cases
+> A dataset of failure-inducing test cases found by Differential Prompting and baselines.
 {: .prompt-tip }
-[**Download API lables**](https://github.com/Piecer-plc/piecer-plc.github.io/blob/main/Data/api_label.xls)
-## Pipelines
-> A dataset containing ML pipelines used in RQ1,RQ2,and Empirical Findings.
+[**Download X failure-inducing test cases found from buggy program (RQ1)**](https://github.com/Piecer-plc/piecer-plc.github.io/blob/main/Data/api_label.xls)
+
+[**Download X failure-inducing test cases found from correct program (RQ1)**](https://github.com/Piecer-plc/piecer-plc.github.io/blob/main/Data/api_label.xls)
+
+[**Download X failure-inducing test cases found from buggy program (RQ4)**](https://github.com/Piecer-plc/piecer-plc.github.io/blob/main/Data/api_label.xls)
+
+[**Download X failure-inducing test cases found from correct program (RQ4)**](https://github.com/Piecer-plc/piecer-plc.github.io/blob/main/Data/api_label.xls)
+
+## Intentions
+> A dataset of 470 intentions inferred by Differential Prompting.
 {: .prompt-tip }    
-[**Download pipelines used in RQ1**](https://github.com/Piecer-plc/piecer-plc.github.io/blob/main/Data/Rq1_pipelines.csv)
+[**Download 400 intentions used in RQ3**](https://github.com/Piecer-plc/piecer-plc.github.io/blob/main/Data/Rq1_pipelines.csv)
 
-[**Download pipelines used in RQ2**](https://github.com/Piecer-plc/piecer-plc.github.io/blob/main/Data/Rq2_pipelines.csv)
+[**Download 70 intentions used in RQ4**](https://github.com/Piecer-plc/piecer-plc.github.io/blob/main/Data/Rq2_pipelines.csv)
 
-[**Download pipelines used in Empirical Findings**](https://github.com/Piecer-plc/piecer-plc.github.io/blob/main/Data/Findings_Pipeline.csv)
-
-[**Download pipelines used in RQ5 (Collected from GitHub and Hugging Face)**](http://piecer-plc.github.io/Data/IP.txt)
-
-## Defective Repository
-> A defective repository
+## Reference Versions
+> A dataset of 940 intentions inferred by Differential Prompting and baseline.
 {: .prompt-tip }
-[**Download API defective repository**](https://github.com/Piecer-plc/piecer-plc.github.io/blob/main/Data/knowledge.xlsx)
-## Empirical Findings
->A list of PLC issues captured by us in real-world pipelines and popular ML libraries
+[**Download 800 reference versions used in RQ2**](https://github.com/Piecer-plc/piecer-plc.github.io/blob/main/Data/knowledge.xlsx)
+
+[**Download 140 intentions used in RQ4**](https://github.com/Piecer-plc/piecer-plc.github.io/blob/main/Data/knowledge.xlsx)
+
+## Codeforces Programs
+> A dataset of seven codeforces programs studied in RQ4.
 {: .prompt-tip }
-- PLC Issues Repored to ML libraries
-
-    [**Download PLC issues repored to ML libraries**](https://github.com/Piecer-plc/piecer-plc.github.io/blob/main/Data/IssuesInMLLibraries.md)
-- PLC Issues Identified in Real Pipelines
-
-    [**Download PLC issues identified in real pipelines**](https://github.com/Piecer-plc/piecer-plc.github.io/blob/main/Data/IssuesInPipeline.xlsx)
+[**Download seven Codeforces program used in RQ4**](https://github.com/Piecer-plc/piecer-plc.github.io/blob/main/Data/IssuesInMLLibraries.md)
 
 <div id="d-help-win" class="d-help-win" >
     <div id="win-title">Help
