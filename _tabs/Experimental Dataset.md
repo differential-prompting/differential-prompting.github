@@ -9,13 +9,13 @@ order: 2
 > A dataset of failure-inducing test cases found by Differential Prompting and baselines.
 {: .prompt-tip }
 
-[**Download X failure-inducing test cases found from buggy program (RQ1)**](https://github.com/differential-prompting/differential-prompting.github.io/blob/main/Data/Failure-inducing test cases/Failure-inducing test cases-RQ1-buggy.rar)
+[**Download X failure-inducing test cases found from buggy program (RQ1)**](https://github.com/differential-prompting/differential-prompting.github.io/blob/main/Data/Failure-inducing%20test%20cases/Failure-inducing%20test%20cases-RQ1-buggy.rar)
 
-[**Download X failure-inducing test cases found from correct program (RQ1)**](https://github.com/differential-prompting/differential-prompting.github.io/blob/main/Data/Failure-inducing test cases/Failure-inducing test cases-RQ1-correct.rar)
+[**Download X failure-inducing test cases found from correct program (RQ1)**](https://github.com/differential-prompting/differential-prompting.github.io/blob/main/Data/Failure-inducing%20test%20cases/Failure-inducing%20test%20cases-RQ1-correct.rar)
 
-[**Download X failure-inducing test cases found from buggy program (RQ4)**](https://github.com/differential-prompting/differential-prompting.github.io/blob/main/Data/Failure-inducing test cases/Failure-inducing test cases-RQ4-buggy.rar)
+[**Download X failure-inducing test cases found from buggy program (RQ4)**](https://github.com/differential-prompting/differential-prompting.github.io/blob/main/Data/Failure-inducing%20test%20cases/Failure-inducing%20test%20cases-RQ4-buggy.rar)
 
-[**Download X failure-inducing test cases found from correct program (RQ4)**](https://github.com/differential-prompting/differential-prompting.github.io/blob/main/Data/Failure-inducing test cases/Failure-inducing test cases-RQ4-correct.rar)
+[**Download X failure-inducing test cases found from correct program (RQ4)**](https://github.com/differential-prompting/differential-prompting.github.io/blob/main/Data/Failure-inducing%20test%20cases/Failure-inducing%20test%20cases-RQ4-correct.rar)
 
 ## Intentions
 > A dataset of 470 intentions inferred by Differential Prompting.
@@ -29,15 +29,15 @@ order: 2
 > A dataset of 940 intentions inferred by Differential Prompting and baseline.
 {: .prompt-tip }
 
-[**Download 800 reference versions used in RQ2**](https://github.com/differential-prompting/differential-prompting.github.io/blob/main/Data/Reference versions/Reference versions-RQ2-Quixbugs.rar)
+[**Download 800 reference versions used in RQ2**](https://github.com/differential-prompting/differential-prompting.github.io/blob/main/Data/Reference%20versions/Reference versions-RQ2-Quixbugs.rar)
 
-[**Download 140 intentions used in RQ4**](https://github.com/differential-prompting/differential-prompting.github.io/blob/main/Data/Reference versions/Reference versions-RQ4-codeforces.rar)
+[**Download 140 intentions used in RQ4**](https://github.com/differential-prompting/differential-prompting.github.io/blob/main/Data/Reference%20versions/Reference versions-RQ4-codeforces.rar)
 
 ## Codeforces Programs
 > A dataset of seven codeforces programs studied in RQ4.
 {: .prompt-tip }
 
-[**Download seven Codeforces program used in RQ4**](https://github.com/differential-prompting/differential-prompting.github.io/blob/main/Data/Codeforces programs/Codeforces programs.rar)
+[**Download seven Codeforces program used in RQ4**](https://github.com/differential-prompting/differential-prompting.github.io/blob/main/Data/Codeforces%20programs/Codeforces%20programs.rar)
 
 <div id="d-help-win" class="d-help-win" >
     <div id="win-title">Help
