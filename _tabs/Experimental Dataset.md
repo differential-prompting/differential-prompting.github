@@ -21,17 +21,17 @@ order: 4
 > A dataset of 470 intentions inferred by Differential Prompting.
 {: .prompt-tip }    
 
-[**Download 400 intentions used in RQ3**](https://github.com/differential-prompting/differential-prompting.github.io/blob/main/Data/Rq1_pipelines.csv)
+[**Download 400 intentions used in RQ3**](https://github.com/differential-prompting/differential-prompting.github.io/blob/main/Data/Intentions/Intentions-RQ3-Quixbugs.rar)
 
-[**Download 70 intentions used in RQ4**](https://github.com/differential-prompting/differential-prompting.github.io/blob/main/Data/Rq2_pipelines.csv)
+[**Download 70 intentions used in RQ4**](https://github.com/differential-prompting/differential-prompting.github.io/blob/main/Data/Intentions/Intentions-RQ4-codeforces.rar)
 
 ## Reference Versions
 > A dataset of 940 intentions inferred by Differential Prompting and baseline.
 {: .prompt-tip }
 
-[**Download 800 reference versions used in RQ2**](https://github.com/differential-prompting/differential-prompting.github.io/blob/main/Data/knowledge.xlsx)
+[**Download 800 reference versions used in RQ2**](https://github.com/differential-prompting/differential-prompting.github.io/blob/main/Data/Reference versions/Reference versions-RQ2-Quixbugs.rar)
 
-[**Download 140 intentions used in RQ4**](https://github.com/differential-prompting/differential-prompting.github.io/blob/main/Data/knowledge.xlsx)
+[**Download 140 intentions used in RQ4**](https://github.com/differential-prompting/differential-prompting.github.io/blob/main/Data/Reference versions/Reference versions-RQ4-codeforces.rar)
 
 ## Codeforces Programs
 > A dataset of seven codeforces programs studied in RQ4.
