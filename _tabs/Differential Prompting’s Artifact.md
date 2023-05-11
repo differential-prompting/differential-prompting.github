@@ -12,7 +12,7 @@ order: 1
 
 Press play to see the demo.
 
-<iframe height=498 width=510 src='https://player.youku.com/embed/XNDU0ODk4MzgyMA==' frameborder=0 'allowfullscreen'></iframe>
+https://player.youku.com/embed/XNDU0ODk4MzgyMA==
 
 ## Description
 
