@@ -15,7 +15,7 @@ Differential Prompting is an approach that can effectively find failure-inducing
 1. Clone or download our code to your local machine:
 
    ```bash
-   git clone https://github.com/differential-prompting/differential-prompting
+   git clone https://github.com/differential-prompting/dfprompting-database
    ```
 
 2. Install the required packages:
