@@ -63,7 +63,7 @@ python -m diffPrompt update
 Generate intention, codes and test inputs pool for given code.
 
 ```bash
- python -m diffPrompt --code_path example\bitcount.py --proxy True 
+ python -m diffPrompt --code_path example\example_code.py --proxy True 
  
  ---
  Generate intention
@@ -71,7 +71,7 @@ Generate intention, codes and test inputs pool for given code.
  ....
  ....
  ....
- Done and save the results in :Results/bitcount.py_dbd51d 
+ Done and save the results in :Results/example_code.py_dbd51d 
 ```
 
 Once the command is executed, the results will be saved in the `Results` directory.
