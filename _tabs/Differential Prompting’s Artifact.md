@@ -8,15 +8,7 @@ order: 1
 
 ## Demo
 
-<video width="1546" height="1080" controls="controls">
-
-<source src="https://github.com/differential-prompting/differential-prompting.github.io/blob/main/Data/demo.mp4" type="video/mp4">
-  
-<source src="movie.ogg" type="video/ogg">
-  
-您的浏览器不支持此种视频格式。
-
-</video>
+<video src="https://github.com/differential-prompting/differential-prompting.github.io/blob/main/Data/demo.mp4" controls="controls" width:100% height:auto></video>
 
   
 ## Description
