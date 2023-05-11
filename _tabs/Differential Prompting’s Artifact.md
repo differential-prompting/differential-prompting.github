@@ -8,7 +8,7 @@ order: 1
 
 ## Demo
 
-[video]
+<video src="视频链接"></video>
 
 ## Description
 
