@@ -8,7 +8,7 @@ order: 1
 
 ## Demo
 
-<video src="视频链接"></video>
+<video src="https://github.com/differential-prompting/differential-prompting.github.io/blob/main/Data/demo.mp4"></video>
 
 ## Description
 
