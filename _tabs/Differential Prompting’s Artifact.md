@@ -8,9 +8,7 @@ order: 1
 
 ## Demo
 
-<video width=100% height=100% controls>
-  <source src="https://github.com/differential-prompting/differential-prompting.github.io/blob/main/Data/demo.mp4" type="video/mp4">
-</video>
+[![Watch the video](https://github.com/differential-prompting/differential-prompting.github.io/blob/main/Data/demo.png)](https://github.com/differential-prompting/differential-prompting.github.io/blob/main/Data/demo.mp4)
 
 Press play to see the demo.
   
