@@ -26,7 +26,7 @@ order: 2
 [**Download 70 intentions used in RQ4**](https://github.com/differential-prompting/differential-prompting.github.io/blob/main/Data/Intentions/Intentions-RQ4-codeforces.rar)
 
 ## Reference Versions
-> A dataset of 940 intentions inferred by Differential Prompting and baseline.
+> A dataset of 940 intentions inferred by Differential Prompting and baselines.
 {: .prompt-tip }
 
 [**Download 800 reference versions used in RQ2**](https://github.com/differential-prompting/differential-prompting.github.io/blob/main/Data/Reference%20versions/Reference%20versions-RQ2-Quixbugs.rar)
