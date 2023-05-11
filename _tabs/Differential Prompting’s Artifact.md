@@ -8,11 +8,7 @@ order: 1
 
 ## Demo
 
-[![Watch the video](https://github.com/differential-prompting/differential-prompting.github.io/blob/main/Data/demo.png)](https://1drv.ms/v/s!AmhAv1lZ2TuFjE9Nsyue0q28Gh0a?e=CFuJFg)
-
-Press play to see the demo.
-
-https://1drv.ms/v/s!AmhAv1lZ2TuFjE9Nsyue0q28Gh0a?e=CFuJFg.mp4
+<iframe width="420" height="315" src="http://www.youtube.com/embed/dQw4w9WgXcQ" frameborder="0" allowfullscreen></iframe>
 
 ## Description
 
